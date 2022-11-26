@@ -53,6 +53,8 @@ body{
     align-items : left;
     font-size: 25px;
     margin-bottom: 80px;
+    font-family: myFirstFont;
+  color: #264143;
 }
 
 
@@ -61,6 +63,8 @@ body{
    flex-direction: column;
     justify-content : center;
     align-items : center;
+    font-family: myFirstFont;
+  color: #264143;
 }
 
 
