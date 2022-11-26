@@ -1,0 +1,70 @@
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('fonts/Avenir.otf');
+}
+
+div {
+  font-family: myFirstFont;
+  color: #264143;
+}
+
+
+*{
+	text-decoration: none;
+}
+
+#wrap{
+	padding: 0px;
+}
+#footertext{
+	padding: 0px;
+}
+
+
+body{
+	background-color: #eddcd9;
+	/*padding: 30px;
+	margin: 80px;
+	border:80px;*/
+	margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 180px; 
+    margin-right: 180px;
+    padding: 0px;
+}
+
+
+
+#header{
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 47px;	
+		margin-top: 0px; 
+    margin-bottom: -70px; 
+}
+
+#describe{
+	display : flex;
+	flex-direction: column;
+	justify-content : left;
+	align-items : left;
+	font-size: 40px;
+	margin-bottom: -20px; 
+}
+
+#smallfont{
+	font-size: 25px;
+	font-style: italic;
+	margin-top: 0px;
+}
+
+#footer{
+	display : flex;
+	flex-direction: column;
+	justify-content : left;
+	align-items : left;
+	font-size: 25px;
+}
+
